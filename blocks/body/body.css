@@ -1,0 +1,6 @@
+.body {
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}

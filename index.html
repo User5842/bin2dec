@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>bin2dec</title>
 </head>
-<body>
-    <h1>Binary to Decimal Converter</h1>
-    <form>
-        <label for="">Binary: </label>
-        <input id="binary" type="number" maxlength="8">
-
-        <label for="decimal">Decimal: </label>
-        <input id="decimal" type="number" readonly>
-
-        <button type="button">Convert</button>
-    </form>
+<body class="body">
+    <main class="main">
+        <h1>Binary to Decimal Converter</h1>
+        <form class="main__form">
+            <section class="main__form-section">
+                <label for="binary">Binary: </label>
+                <input class="main__form-section-input" id="binary" type="number" maxlength="8">
+            </section>
+            
+            <section class="main__form-section">
+                <label for="decimal">Decimal: </label>
+                <input class="main__form-section-input" id="decimal" type="number" readonly>
+            </section>
+    
+            <button class="main__form-button" type="button">Convert</button>
+        </form>
+    </main>
 </body>
 </html>

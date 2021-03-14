@@ -1,0 +1,9 @@
+@import url(./__form-button/main__form-button.css);
+@import url(./__form-section-input/main__form-section-input.css);
+@import url(./__form-section/main__form-section.css);
+
+.main {
+    border: 3px solid black;
+    margin: auto;
+    padding: 1rem;
+}
