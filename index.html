@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
+    <script src="./scripts/index.js" defer></script>
     <title>bin2dec</title>
 </head>
 <body class="body">
@@ -13,15 +14,26 @@
         <form class="main__form">
             <section class="main__form-section">
                 <label for="binary">Binary: </label>
-                <input class="main__form-section-input" id="binary" type="number" maxlength="8">
+                <input
+                    class="main__form-section-input"
+                    id="binary"
+                    name="binary"
+                    type="number"
+                    required
+                >
             </section>
             
             <section class="main__form-section">
                 <label for="decimal">Decimal: </label>
-                <input class="main__form-section-input" id="decimal" type="number" readonly>
+                <input
+                    class="main__form-section-input"
+                    id="decimal"
+                    type="number"
+                    readonly
+                >
             </section>
     
-            <button class="main__form-button" type="button">Convert</button>
+            <button class="main__form-button" type="submit">Convert</button>
         </form>
     </main>
 </body>

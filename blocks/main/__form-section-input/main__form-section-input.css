@@ -1,3 +1,5 @@
+@import url(./_validity/main__form-section-input_validity_invalid.css);
+
 .main__form-section-input {
     font-family: 'Inconsolata', monospace;
 }
